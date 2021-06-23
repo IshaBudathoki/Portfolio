@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+header{
+	background: #101010;
+	color:#FFFFFF;
+	padding: 8px 0px 6px 40px;
+	height: 50px;
+}
+header h1{
+	display:inline;
+	font-weight: 400;
+	font-size: 35px;
+	float: left;
+	margin-top:9px;
+	margin-right: 10px;	
+}
+nav ul{
+	display:inline;
+	padding: 10px;
+	float: left; 
+	font-size: 20px;
+}
+nav ul li{
+	display: inline-block;
+	list-style-type:none;
+	color:#FFFFFF; 
+	float: left;
+	margin-left: 40px;
+}
+nav ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#tt{
+	font-family: cursive;
+}
+.homeblue{
+	background-color:#FFFC00;
+	padding: 30px 10px 23px 10px;
+}
+.divider{
+	background-color:#FFFC00;
+	height: 5px; 
+}
+.homeblack:hover{
+	background-color:#FFFC00 ;
+	padding: 30px 10px 23px 10px;
+
+}
+body{
+	background-image: url(../img/16.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.Youtube_text{
+	background-color: rgb(0,0,0);/*fallback color*/
+	background-color: rgba(0,0,0,0.4);/*Black and whiteopacity/see-through */
+	color: #fff;
+	font-weight: bold;
+	border: 3px solid #fff;
+	position: absolute;
+	top: 71%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 40%;
+	padding: 20px;
+	text-align: center;
+}
+.w3_text{
+	background-color: rgb(0,0,0);/*fallback color*/
+	background-color: rgba(0,0,0,0.4);/*Black and whiteopacity/see-through */
+	color: #fff;
+	font-weight: bold;
+	border: 3px solid #fff;
+	position: absolute;
+	top: 165%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 40%;
+	padding: 20px;
+	text-align: center;
+
+}
+.google_text{
+	background-color: rgb(0,0,0);/*fallback color*/
+	background-color: rgba(0,0,0,0.4);/*Black and whiteopacity/see-through */
+	color: #fff;
+	font-weight: bold;
+	border: 3px solid #fff;
+	position: absolute;
+	top: 255%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 40%;
+	padding: 20px;
+	text-align: center;
+
+}
+.iic_text{
+	background-color: rgb(0,0,0);/*fallback color*/
+	background-color: rgba(0,0,0,0.4);/*Black and whiteopacity/see-through */
+	color: #fff;
+	font-weight: bold;
+	border: 3px solid #fff;
+	position: absolute;
+	top: 355%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 40%;
+	padding: 20px;
+	text-align: center;
+
+}

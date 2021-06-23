@@ -1,0 +1,80 @@
+/*the external css file of home page */
+
+header{
+   background: #101010;
+    color:#FFFFFF;
+    padding: 8px 0px 6px 40px;
+    height: 50px;
+}
+
+header h1{
+display: inline;
+font-weight: 400;
+font-size: 32px;
+float: left;
+margin-top: 9px;
+margin-right: 10px;
+}
+
+ul{
+    display: inline-block;
+    padding: 0px;
+    float: left;
+    
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 40px;
+}
+ ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tt{
+    font-family:cursive;
+}
+
+.homegreen{
+    background-color:#39ff14;
+    padding: 30px 10px 23px 10px;
+}
+
+.divider {
+    background-color:#39ff14;
+    height: 5px;
+}
+
+.homeblack:hover {/*hover effect for navigation bar */
+    background-color:#39ff14;
+    padding: 30px 10px 23px 10px;
+
+}
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(../img/5.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: cursive;
+}
+.mainname{
+	font-style: cursive;
+	margin: 0;
+	padding: 30% 0% 0% 55%;
+	font-size: 35px;
+	color:#39ff14; 
+}
+.subname{
+	font-family: bold;
+	margin: 0.5% 0% 0% 55%;
+	font-size: 45px;
+	color: #ffffff;
+	background-color:#737373;
+	display: inline-block;
+}
